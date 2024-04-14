@@ -1,0 +1,29 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ */
+package vetor02;
+
+/**
+ *
+ * @author alvar
+ */
+public class Vetor02 {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+        String mez[] = {"Janeiro","Fevereiro","Marco",
+            "Abril","Maio","Junho","Julho","Agosto",
+            "Setenbro","Outubro","Novenbro","Dezenbro",};
+        int tot[] = {31,28,31,30,31,30,31,31,30,31,30,31};
+        for (int c = 0; c<mez.length; c++) {
+            System.out.println("O mez de " + mez[c] +
+                    " Tem " + tot[c] + " Dias ao Todo");
+            
+        }
+    }
+    
+}
